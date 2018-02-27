@@ -1,0 +1,37 @@
+.div{
+  margin-bottom: 2em;
+}
+
+.horizontal{
+  border: 2px solid;
+    padding: 20px; 
+    width: 300px;
+    resize: horizontal;
+    overflow: auto;
+}
+
+.vertical{
+  border: 2px solid; 
+  padding: 20px;
+  width: 300px;
+  resize: vertical;
+  overflow: auto;
+}
+
+.both{
+  border: 2px solid; 
+  padding: 20px;
+  width: 300px;
+  resize: both;
+  overflow: auto;
+}
+
+.offset{
+  margin: 20px;
+  padding: 10px;
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  outline: 1px solid red;
+  outline-offset: 15px;
+}
